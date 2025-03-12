@@ -1,0 +1,33 @@
+.list-container{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #9aa5b1;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    color: #12022f;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .date {
+    color: #9aa5b1;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .description {
+    color: #9aa5b1;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+  }
